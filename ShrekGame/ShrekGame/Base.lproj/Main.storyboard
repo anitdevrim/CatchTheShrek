@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KennyGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duc-37-ncr">
+                                <rect key="frame" x="46" y="85" width="300" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="MMw-Zz-xqb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXI-RJ-dE8">
+                                <rect key="frame" x="54" y="149" width="284" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Bry-53-tH3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Highscore:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvb-YZ-ALu">
+                                <rect key="frame" x="54" y="724" width="284" height="48"/>
+                                <accessibility key="accessibilityConfiguration" identifier="highscore"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="3eT-vC-AQC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shrek1" translatesAutoresizingMaskIntoConstraints="NO" id="E1Q-0R-H2d">
+                                <rect key="frame" x="46" y="216" width="99" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shrek4" translatesAutoresizingMaskIntoConstraints="NO" id="cSs-FL-TKe">
+                                <rect key="frame" x="46" y="357" width="99" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shrek7" translatesAutoresizingMaskIntoConstraints="NO" id="GdR-ir-dUY">
+                                <rect key="frame" x="46" y="496" width="99" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shrek2" translatesAutoresizingMaskIntoConstraints="NO" id="iO7-De-Z0F">
+                                <rect key="frame" x="153" y="216" width="99" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shrek5" translatesAutoresizingMaskIntoConstraints="NO" id="z1Y-Ak-mgV">
+                                <rect key="frame" x="153" y="357" width="99" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shrek6" translatesAutoresizingMaskIntoConstraints="NO" id="Izm-LU-ZYt">
+                                <rect key="frame" x="260" y="357" width="99" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shrek8" translatesAutoresizingMaskIntoConstraints="NO" id="mFD-8e-Quo">
+                                <rect key="frame" x="153" y="496" width="99" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shrek9" translatesAutoresizingMaskIntoConstraints="NO" id="mhM-nO-JnF">
+                                <rect key="frame" x="260" y="496" width="99" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shrek3" translatesAutoresizingMaskIntoConstraints="NO" id="27q-ge-tOk">
+                                <rect key="frame" x="260" y="216" width="99" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gvb-YZ-ALu" secondAttribute="bottom" constant="46" id="1Vk-e6-3BC"/>
+                            <constraint firstItem="duc-37-ncr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="67a-gT-Kws"/>
+                            <constraint firstItem="duc-37-ncr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7N2-Bn-1bo"/>
+                            <constraint firstItem="dXI-RJ-dE8" firstAttribute="top" secondItem="duc-37-ncr" secondAttribute="bottom" constant="21" id="Fqb-gu-r0X"/>
+                            <constraint firstItem="dXI-RJ-dE8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="NWf-WB-g8Y"/>
+                            <constraint firstItem="duc-37-ncr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="ONA-go-HYh"/>
+                            <constraint firstItem="duc-37-ncr" firstAttribute="centerX" secondItem="dXI-RJ-dE8" secondAttribute="centerX" id="hJv-OL-BAA"/>
+                            <constraint firstItem="dXI-RJ-dE8" firstAttribute="leading" secondItem="gvb-YZ-ALu" secondAttribute="leading" id="mrs-Pw-FnC"/>
+                            <constraint firstItem="dXI-RJ-dE8" firstAttribute="trailing" secondItem="gvb-YZ-ALu" secondAttribute="trailing" id="zuZ-IR-7xH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="currentScoreLabel" destination="dXI-RJ-dE8" id="3gO-Ve-dsw"/>
+                        <outlet property="highScoreLabel" destination="gvb-YZ-ALu" id="R3b-5b-trl"/>
+                        <outlet property="shrek1" destination="E1Q-0R-H2d" id="o92-2F-ydD"/>
+                        <outlet property="shrek2" destination="iO7-De-Z0F" id="8qp-6P-NgW"/>
+                        <outlet property="shrek3" destination="27q-ge-tOk" id="8fU-9T-jDd"/>
+                        <outlet property="shrek4" destination="cSs-FL-TKe" id="ALb-TL-Msr"/>
+                        <outlet property="shrek5" destination="z1Y-Ak-mgV" id="flK-yj-JCX"/>
+                        <outlet property="shrek6" destination="Izm-LU-ZYt" id="enq-Cu-9cS"/>
+                        <outlet property="shrek7" destination="GdR-ir-dUY" id="3X0-i1-Hb8"/>
+                        <outlet property="shrek8" destination="mFD-8e-Quo" id="4c5-N7-6bM"/>
+                        <outlet property="shrek9" destination="mhM-nO-JnF" id="1su-3p-980"/>
+                        <outlet property="timerLabel" destination="duc-37-ncr" id="o8H-UA-gMA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="shrek1" width="231" height="219"/>
+        <image name="shrek2" width="231" height="219"/>
+        <image name="shrek3" width="231" height="219"/>
+        <image name="shrek4" width="231" height="219"/>
+        <image name="shrek5" width="231" height="219"/>
+        <image name="shrek6" width="231" height="219"/>
+        <image name="shrek7" width="231" height="219"/>
+        <image name="shrek8" width="231" height="219"/>
+        <image name="shrek9" width="231" height="219"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
