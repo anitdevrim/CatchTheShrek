@@ -1,1 +1,1 @@
-# Catch the Shrek IOS game developed by Anıt Devrim AKDENİZ
+# Catch the Shrek IOS game developed with Swift
